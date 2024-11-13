@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #101011;
+}
+
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.header p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    color: #000000;
+    border-bottom: 2px solid #292121;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.experience, .education {
+    margin-bottom: 15px;
+   
+}
+
+.experience h3, .education h3 {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.experience p, .education p {
+    color: #777;
+}
+
+.experience > ul > li{
+    margin-left: 20px;
+}
+
+.skills {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.skills li {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
